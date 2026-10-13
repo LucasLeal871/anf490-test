@@ -1,0 +1,8 @@
+{
+  "name": "anf573-local",
+  "version": "0.0.1",
+  "description": "Inert research plugin for authorized security testing (HackerOne handle lucasleal). No commands, no hooks, no MCP servers.",
+  "author": {
+    "name": "lucasleal"
+  }
+}
