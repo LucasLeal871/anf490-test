@@ -1,39 +1,77 @@
 {
-  "name": "anf573b",
+  "name": "anf574",
   "owner": {
-    "name": "anf573b"
+    "name": "anf574"
   },
   "plugins": [
     {
-      "name": "anf573-local",
-      "source": "./anf573-local"
-    },
-    {
-      "name": "anf573b-meugit",
+      "name": "anf574-0",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/LucasLeal871/anf490-test.git",
         "path": "anf573-local",
         "ref": "main",
-        "sha": "cad5309ab64faae709440385d0e7441d3e3e61d1"
+        "sha": "ff2894bafb807bc243c5e9602a82d7102fbf42c8"
       }
     },
     {
-      "name": "anf573b-meuhost",
+      "name": "anf574-1",
       "source": {
         "source": "git-subdir",
-        "url": "https://anf573b-host.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/r.git",
+        "url": "https://github.com@anf574-userinfo.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/r.git",
         "path": "anf573-local",
         "ref": "main",
-        "sha": "cad5309ab64faae709440385d0e7441d3e3e61d1"
+        "sha": "ff2894bafb807bc243c5e9602a82d7102fbf42c8"
       }
     },
     {
-      "name": "anf573b-urlvar",
+      "name": "anf574-2",
       "source": {
-        "source": "url",
-        "url": "https://github.com/LucasLeal871/anf490-test.git",
-        "sha": "cad5309ab64faae709440385d0e7441d3e3e61d1"
+        "source": "git-subdir",
+        "url": "https://github.com:x@anf574-userpass.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/r.git",
+        "path": "anf573-local",
+        "ref": "main",
+        "sha": "ff2894bafb807bc243c5e9602a82d7102fbf42c8"
+      }
+    },
+    {
+      "name": "anf574-3",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com.anf574-sufixo.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/r.git",
+        "path": "anf573-local",
+        "ref": "main",
+        "sha": "ff2894bafb807bc243c5e9602a82d7102fbf42c8"
+      }
+    },
+    {
+      "name": "anf574-4",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://anf574-nocaminho.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/github.com/r.git",
+        "path": "anf573-local",
+        "ref": "main",
+        "sha": "ff2894bafb807bc243c5e9602a82d7102fbf42c8"
+      }
+    },
+    {
+      "name": "anf574-5",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com.anf574-porta.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online:443/r.git",
+        "path": "anf573-local",
+        "ref": "main",
+        "sha": "ff2894bafb807bc243c5e9602a82d7102fbf42c8"
+      }
+    },
+    {
+      "name": "anf574-6",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com\\@anf574-barra.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/r.git",
+        "path": "anf573-local",
+        "ref": "main",
+        "sha": "ff2894bafb807bc243c5e9602a82d7102fbf42c8"
       }
     }
   ]
