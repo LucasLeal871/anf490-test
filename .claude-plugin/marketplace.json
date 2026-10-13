@@ -1,78 +1,12 @@
 {
-  "name": "anf575",
+  "name": "anf-research",
   "owner": {
-    "name": "anf575"
+    "name": "lucasleal"
   },
   "plugins": [
     {
-      "name": "anf575-0",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/LucasLeal871/anf490-test.git",
-        "path": "anf573-local",
-        "ref": "main",
-        "sha": "a92c9af1a883dc6887ce56eecc14a82cf1794c74"
-      }
-    },
-    {
-      "name": "anf575-1",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/LucasLeal871/anf490-test.git",
-        "path": "anf573-local/../anf573-local",
-        "ref": "main",
-        "sha": "a92c9af1a883dc6887ce56eecc14a82cf1794c74"
-      }
-    },
-    {
-      "name": "anf575-2",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/LucasLeal871/anf490-test.git",
-        "path": "./anf573-local",
-        "ref": "main",
-        "sha": "a92c9af1a883dc6887ce56eecc14a82cf1794c74"
-      }
-    },
-    {
-      "name": "anf575-3",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/LucasLeal871/anf490-test.git",
-        "path": "../",
-        "ref": "main",
-        "sha": "a92c9af1a883dc6887ce56eecc14a82cf1794c74"
-      }
-    },
-    {
-      "name": "anf575-4",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/LucasLeal871/anf490-test.git",
-        "path": "../../../../etc",
-        "ref": "main",
-        "sha": "a92c9af1a883dc6887ce56eecc14a82cf1794c74"
-      }
-    },
-    {
-      "name": "anf575-5",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/LucasLeal871/anf490-test.git",
-        "path": "/etc",
-        "ref": "main",
-        "sha": "a92c9af1a883dc6887ce56eecc14a82cf1794c74"
-      }
-    },
-    {
-      "name": "anf575-6",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/LucasLeal871/anf490-test.git",
-        "path": "anf573-local/../../",
-        "ref": "main",
-        "sha": "a92c9af1a883dc6887ce56eecc14a82cf1794c74"
-      }
+      "name": "anf573-local",
+      "source": "./anf573-local"
     }
   ]
 }
