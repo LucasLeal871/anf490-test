@@ -1,1 +1,38 @@
-{"name":"anf568","owner":{"name":"anf568"},"plugins":[{}]}
+{
+  "name": "anf572",
+  "owner": {
+    "name": "anf572"
+  },
+  "plugins": [
+    {
+      "name": "p0sem"
+    },
+    {
+      "name": "p1str",
+      "source": "anf572-string-simples"
+    },
+    {
+      "name": "p2obj",
+      "source": {}
+    },
+    {
+      "name": "p3git",
+      "source": {
+        "type": "git_repository"
+      }
+    },
+    {
+      "name": "p4trav",
+      "source": "../../../../anf572-traversal"
+    },
+    {
+      "name": "../p5nome",
+      "source": "./anf572"
+    },
+    {
+      "name": "p6extra",
+      "source": "./anf572",
+      "anf572_campo_extra": true
+    }
+  ]
+}
